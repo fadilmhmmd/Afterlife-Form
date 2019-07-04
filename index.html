@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>this is title</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+ <body>
+ <div class="main">
+  <h1 id="title">Afterlife Form</h1>
+    <div id="form-top">
+      <p id="description">Let us know how we can improve your Afterlife</p>
+      <form id="survey-form">
+        <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">* Name:</label>
+          </div>
+          <div class="rightTab">
+              <input autofocus type="text" id="name" name="name" placeholder= "Enter your name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="email-label" for="name">* E-mail:</label>
+          </div>
+          <div class="rightTab">
+              <input id="email" type="email" pattern="+@.com" placeholder= "Enter your e-mail" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="number-label" for="name">* Age:</label>
+          </div>
+          <div class="rightTab">
+              <input id="number" type="number" name="Age" max="60" min="1" placeholder= "Age" required="true">
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">Which option best describes your current role?</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown" name="currentPos">
+              <option value="student">Lovers</option>
+              <option value="job">Haters</option>
+              <option value="learner">Full Time Loner</option>
+              <option value="preferno">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+         <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">* Where you want to be buried after you die?</label>
+          </div>
+         <div class="rightTab">
+           <ul class="list">
+             <li class="radio">
+               <label>
+                 <input type="radio" name="radio-buttons" class="userrating" value="1">  Ordinary Graveyard
+               </label>
+             </li>
+             <li class="radio">
+               <label>
+               <input type="radio" name="radio-buttons" class="userrating" value="2">  Sea
+                </label>
+             </li>
+             <li class="radio">
+               <label>
+               <input type="radio" name="radio-buttons" class="userrating" value="3">  No, I am immortal
+                </label>
+             </li>
+           </ul>
+          </div>
+        </div>
+          <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">What is your version of the end of the world</label>
+          </div>
+          <div class="rightTab">
+            <select id="dropdown" name="currentPos">
+              <option value="student">collision</option>
+              <option value="job">attack by Night King</option>
+              <option value="learner">Alien Expansion</option>
+              <option value="preferno">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+   <div class="row">
+          <div class="labels">
+            <label id="name-label" for="preferences">Things that should be improved in the future?<br>(Check all that apply):</label>
+          </div>
+          <div class="rightTab">
+            <ul class="preferences">
+              <li class="radio">
+                <label>
+               <input type="checkbox" name="prefere" class="userrating" value="1">  HTML
+                </label>
+              </li>
+              <li class="checkbox">
+                <label>
+               <input type="checkbox" name="prefere" class="userrating" value="2">  CSS
+                </label>
+              </li>
+             <li class="checkbox">
+               <label>
+               <input type="checkbox" name="prefere" class="userrating" value="3">  Javascript
+                </label>
+              </li>
+              <li class="checkbox">
+              <label>
+              <input type="checkbox" name="prefere" class="userrating" value="4">  Data-Visualization
+              </label>
+              </li>
+             <li class="checkbox">
+              <label>
+              <input type="checkbox" name="prefere" class="userrating" value="5">  Challenges
+              </label>
+             </li>
+             <li class="checkbox">
+              <label>
+              <input type="checkbox" name="prefere" class="userrating" value="6">  Open Source Community
+              </label>
+             </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">Any Comments or Suggestions?</label>
+          </div>
+          <div class="rightTab">
+           <textarea id="comment" rows="4" cols="50" placeholder= "Enter your comment here..."></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+   </div>
+  </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

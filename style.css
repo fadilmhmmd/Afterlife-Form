@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: block;
+}
+.main {
+  background-color: #62BC4A;
+  padding: 0;
+  margin: 0;
+}
+#title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #62BC4A;
+  text-align: center;
+}
+#form-top {
+  background-color: white;
+  width: 75%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 4px;
+}
+#description {
+  text-align: center;
+}
+#survey-form {
+  margin: 40px;
+}
+.row {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+/* label */
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+/* #name-label {
+  display: inline-block;
+  margin: auto;
+} */
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 48%;
+}
+#name, #number, #email {
+  width: 300px;
+  height: 20px;
+  padding: 7px;
+  margin-left: 15px;
+  border: 1px solid #c0c0c0;
+}
+#comment {
+  rows: 4;
+  cols: 50;
+  padding: 7px;
+  margin-left: 15px;
+  border: 1px solid #c0c0c0;
+}
+#dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin-left: 15px;
+  border: 1px solid #c0c0c0;
+}
+.list, .preferences {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 48px;
+}
+.radio, .checkbox {
+  display: block;
+  position: relative;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  left: -43px;
+}
+
+#submit {
+ background-color: #59ace0;
+ font-size: 1em;
+ color: white;
+ border-radius: 4px;
+ height: 40px;
+ width: 96px;
+ margin: 10px;
+ border: 0px solid;
+}
